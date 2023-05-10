@@ -7,7 +7,7 @@ import imgAppStore from '../../../assets/img/appStore.png'
 export default class Hero extends Component {
   render() {
     return (
-        <section id="hero" className="d-flex align-items-center">
+        <section id="hero" className="d-flex align-items-center hero-margin">
             <div className="container col-xxl-8 px-4 py-3">
                 <div className="row flex-lg-row-reverse align-items-center g-5">
                     <div className="col-10 col-sm-8 col-lg-6">
