@@ -4,7 +4,7 @@ import imgLogo from '../../assets/img/logo.svg'
 export default class Navbar extends Component {
   render() {
     return (
-        <header id="header" className="fixed-top bg-navbar-fixed">
+        <header id="header" className="bg-navbar-fixed">
         <div className="container  align-items-center">
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">

@@ -48,6 +48,8 @@ hr.solid {
 /*--------------------------------------------------------------
 # Hero
 --------------------------------------------------------------*/
+
+
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
@@ -62,8 +64,45 @@ hr.solid {
 --------------------------------------------------------------*/
 
 #article .type{
-  color: #0074AB;
+  color: #0096C7;
   font-weight: 500;
+}
+
+.article-selection{
+  padding-top:5px;
+  padding-right:20px;
+  padding-bottom: 20px;
+}
+
+.article-selection button{
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-right: 15px;
+  color : #444;
+  border-color: #bbb;
+}
+
+.article-selection button:hover{
+  background-color:#0096C7;
+  color:white;
+}
+
+.article-selection button:focus{
+  color : #0096C7;
+  border-color: #0096C7;
+  background-color: white;
+  font-weight: 600;
+}
+
+.article-selection .buttonSelected{
+  color : #0096C7;
+  border-color: #0096C7;
+  background-color: white;
+  font-weight: 600;
+}
+
+#article .container .article-title{
+  text-align: left;
 }
 
 /*--------------------------------------------------------------

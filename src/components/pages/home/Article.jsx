@@ -17,8 +17,18 @@ export default class Article extends Component {
         <hr className="solid"/>
         <section id="article" className="d-flex align-items-center ">
             <div className="container col-xxl-8 px-4 py-3">
-                <div className="section-title">
-                    <h2>Artikel Untuk Anda</h2>
+                <div className="row">
+                    <div className="col">
+                        <div className="section-title ">
+                            <h2>Artikel Untuk Anda</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="article-selection">
+                    <button type="button" class="btn btn-outline-primary buttonSelected" >Semua</button>
+                    <button type="button" class="btn btn-outline-primary">Akademi</button>
+                    <button type="button" class="btn btn-outline-primary">Berita</button>
                 </div>
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                 {articles.map((article) => (

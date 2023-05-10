@@ -9,14 +9,14 @@ export default class Hero extends Component {
     return (
         <section id="hero" className="d-flex align-items-center">
             <div className="container col-xxl-8 px-4 py-3">
-                <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div className="row flex-lg-row-reverse align-items-center g-5">
                     <div className="col-10 col-sm-8 col-lg-6">
                         <img src={imgHero} className="d-block mx-lg-auto img-fluid" alt="" loading="lazy"/>
                     </div>
                     <div className="col-lg-6">
                         <div className="lc-block mb-3">
                             <div editable="rich">
-                                <h2 className="fw-bold display-5">Investasi saham dan kripto hanya dari satu aplikasi</h2>
+                                <h2 className="fw-bold display-5">Investasi Saham dan Kripto Hanya Dari Satu Aplikasi</h2>
                             </div>
                         </div>
 
